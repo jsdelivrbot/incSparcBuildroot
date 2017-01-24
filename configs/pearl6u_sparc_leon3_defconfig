@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2016.08.1-00001-gb4440d0-dirty Configuration
+# Buildroot 2016.08.1-00002-g82b7ac0-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_6=y
@@ -86,12 +86,12 @@ BR2_STRIP_strip=y
 # BR2_STRIP_none is not set
 BR2_STRIP_EXCLUDE_FILES=""
 BR2_STRIP_EXCLUDE_DIRS=""
-# BR2_OPTIMIZE_0 is not set
+BR2_OPTIMIZE_0=y
 # BR2_OPTIMIZE_1 is not set
 # BR2_OPTIMIZE_2 is not set
 # BR2_OPTIMIZE_3 is not set
 # BR2_OPTIMIZE_G is not set
-BR2_OPTIMIZE_S=y
+# BR2_OPTIMIZE_S is not set
 BR2_SSP_NONE=y
 # BR2_SSP_REGULAR is not set
 # BR2_SSP_STRONG is not set
@@ -1742,7 +1742,7 @@ BR2_PACKAGE_INITSCRIPTS=y
 # BR2_PACKAGE_PSMISC is not set
 # BR2_PACKAGE_PWGEN is not set
 # BR2_PACKAGE_QUOTA is not set
-BR2_PACKAGE_RSYSLOG=y
+# BR2_PACKAGE_RSYSLOG is not set
 # BR2_PACKAGE_SCRUB is not set
 # BR2_PACKAGE_SCRYPT is not set
 # BR2_PACKAGE_SMACK is not set
@@ -1814,12 +1814,6 @@ BR2_TARGET_ROOTFS_INITRAMFS=y
 # BR2_TARGET_ROOTFS_ROMFS is not set
 # BR2_TARGET_ROOTFS_SQUASHFS is not set
 # BR2_TARGET_ROOTFS_TAR is not set
-# BR2_TARGET_ROOTFS_TAR_NONE is not set
-# BR2_TARGET_ROOTFS_TAR_GZIP is not set
-# BR2_TARGET_ROOTFS_TAR_BZIP2 is not set
-# BR2_TARGET_ROOTFS_TAR_LZMA is not set
-# BR2_TARGET_ROOTFS_TAR_LZO is not set
-# BR2_TARGET_ROOTFS_TAR_XZ is not set
 # BR2_TARGET_ROOTFS_UBIFS is not set
 # BR2_TARGET_ROOTFS_YAFFS2 is not set
 
